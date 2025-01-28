@@ -3,7 +3,7 @@ import sys
 sys.path.append(str(Path(__file__).parents[1]))
 
 from ollama import chat
-from utils.llm_utils import pretty_stringify_chat, ollama_seed as seed
+from util.llm_utils import pretty_stringify_chat, ollama_seed as seed
 
 # Add you code below
 sign_your_name = 'Pulin Agrawal'
