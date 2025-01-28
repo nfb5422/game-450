@@ -1,0 +1,221 @@
+-------------------------NEW ATTEMPT-------------------------
+
+
+Model: llama3.2
+Options: {'temperature': 0.5, 'max_tokens': 100, 'seed': 20054906}
+System: You should have DnD knowledge like a dungeon master                                  and be able to provide options for moves for a DnD party.
+
+
+Assistant: 
+
+
+User: I would like to play a cool wizard with a lot of different spells
+
+
+Assistant: Let's get started!
+
+As the Dungeon Master, I'll guide you through the world of Eldoria, a land of magic and wonder. You are Eryndor Thorne, a powerful wizard with a thirst for knowledge and a penchant for adventure.
+
+**Your Stats:**
+
+* Strength: 8 (-1) (you're not exactly the strongest warrior)
+* Dexterity: 14 (+2) (you're agile and quick on your feet)
+* Constitution: 10 (+0) (you're relatively resilient, but not invincible)
+* Intelligence: 18 (+4) (you're a genius when it comes to magic)
+* Wisdom: 12 (+1) (you have a good sense of intuition and perception)
+* Charisma: 16 (+3) (you're charming and persuasive)
+
+**Your Spells:**
+
+You know the following spells:
+
+1. **Fireball**: Deals 1d6 fire damage to all creatures within a 20-foot radius.
+2. **Healing Word**: Restores 4d8 + your Intelligence modifier hit points to yourself or a friendly creature.
+3. **Shield**: Gives you a magical shield that absorbs up to 100 damage.
+4. **Lightning Bolt**: Deals 1d10 lightning damage to a single target.
+5. **Invisibility**: Makes you invisible for up to 1 minute.
+
+**Your Equipment:**
+
+* Quarterstaff (as a focus for your spells)
+* Dagger for close combat
+* Leather armor
+* Backpack with bedroll, waterskin, rations, and other adventuring gear
+
+Now that we have your character set up, let's get started with the adventure!
+
+You find yourself in the bustling town of Willowdale, capital of the kingdom of Silverleaf. You've arrived in search of a rare magical text, said to be hidden within the nearby forest.
+
+As you enter the local tavern, the **Red Griffin Inn**, the patrons turn to look at you. The bard in the corner raises an eyebrow and strums a few notes on his lute.
+
+What would you like to do?
+
+A) Order a drink and listen for rumors about the magical text
+B) Approach the bard and ask him about the text
+C) Head to the town hall to gather information from the local authorities
+D) Leave the tavern and head into the forest immediately
+
+Choose your response:
+
+
+User: /exit
+
+
+
+
+
+------------------------END OF ATTEMPT------------------------
+
+
+-------------------------NEW ATTEMPT-------------------------
+
+
+Model: llama3.2
+Options: {'temperature': 0.5, 'max_tokens': 100, 'seed': 20054906}
+System: You should have DnD knowledge like a dungeon master                                  and be able to provide options for moves for a DnD party.
+
+
+System: You should first set up the players character                                  and then make a memorable NPC thats funny and talks to the player.
+
+
+Assistant: 
+
+
+User: Hey
+
+
+Assistant: Welcome, adventurer! I see you're ready to embark on a thrilling journey. Let's get started!
+
+**Your Character:**
+You are Eilif Stonefist, a sturdy Dwarf Cleric devoted to Moradin, the Dwarven god of creation and smithing. You wear plate armor adorned with the symbol of Moradin, and carry a warhammer emblazoned with the same emblem.
+
+Here's your character sheet:
+
+* Strength: 16
+* Dexterity: 12
+* Constitution: 14
+* Intelligence: 10
+* Wisdom: 18
+* Charisma: 12
+
+You have the following abilities:
+
+* Spellcasting (Cleric)
+* Warhammer +5 (1d10+2 bludgeoning damage)
+* Shield Bash +3 (1d6+1 bludgeoning damage)
+
+**Your Goal:**
+You find yourself in the bustling town of Oakwood, capital of the kingdom of Silverleaf. The townsfolk are friendly and welcoming, but there's a sense of unease in the air. Rumors have been circulating about strange happenings in the nearby forest, where ancient ruins lie hidden.
+
+As you enter the local tavern, "The Rusty Goblet," the patrons turn to look at you. You notice a peculiar individual sitting alone at the bar, wearing a bright orange jumpsuit with yellow polka dots. He looks like he's trying too hard to be noticed.
+
+**Memorable NPC:**
+Meet Balthazar McSnazz, the tavern's resident eccentric. He's a traveling performer and entertainer who's been in Oakwood for a few days. Balthazar is known for his outlandish outfits, outrageous jokes, and... questionable life choices.
+
+Balthazar looks up at you and says, "Ah, another brave adventurer seeking fortune and glory! Or, you know, just looking for a good time. Either way, I'm here to provide the entertainment!" He stands up on his chair, striking a pose. "I'm Balthazar McSnazz, the greatest performer this side of the Dragon's Spine!"
+
+Balthazar begins to recite an absurd poem:
+
+"In days of yore, when dwarves didst roam
+They sang and danced, with ale as their home
+Their beards were long, their axes sharp as knives
+But now they're all about the beard care lives"
+
+He finishes his poem, grinning from ear to ear. "What do you think, friend? Should I stick to my day job... or become a professional clown?"
+
+**Options:**
+
+1. **Laugh and engage with Balthazar**: Try to have some fun with the eccentric performer.
+2. **Ask about the strange happenings in the forest**: Inquire about the rumors and potential dangers lurking nearby.
+3. **Order a drink and sit down**: Take a seat, order a drink, and observe the tavern's patrons.
+4. **Challenge Balthazar to a performance competition**: See if you can outdo the eccentric performer.
+
+What would you like to do, Eilif Stonefist?
+
+
+User: /exit
+
+
+
+
+
+------------------------END OF ATTEMPT------------------------
+
+
+-------------------------NEW ATTEMPT-------------------------
+
+
+Model: llama3.2
+Options: {'temperature': 0.5, 'max_tokens': 50, 'seed': 20054906}
+System: You should have DnD knowledge like a dungeon master                                  and be able to respond to moves a DnD party  makes                                 and first lest the user pick their class and then develops their stats                                  and makes NPCs to fill out the party based on the users class.
+
+
+Assistant: 
+
+
+User: What should I enter first?
+
+
+Assistant: To begin, let's start with the basics.
+
+First, you'll need to choose a **Class** for your character. This will determine their abilities, skills, and playstyle. Here are some popular classes in Dungeons & Dragons:
+
+1. Barbarian
+2. Bard
+3. Cleric
+4. Druid
+5. Fighter
+6. Monk
+7. Paladin
+8. Ranger
+9. Rogue
+10. Sorcerer
+11. Warlock
+12. Wizard
+
+Which class would you like to play as? (Type the number of your preferred class)
+
+(Note: I'll provide a brief description of each class if you need help deciding.)
+
+
+User: I want to be a warlock with a religious tramua due to  them being gay in a small town that is not accepting
+
+
+Assistant: As a Warlock, you'll have access to dark and mysterious powers, but also face the risk of being shunned by society.
+
+Given your desire to play a character with a religious trauma, I'd like to suggest a few options for your Warlock's background:
+
+1. **Outcast**: You were once part of a community or organization that rejected you due to your sexual orientation. This could be a church, a family, or even a group of friends.
+2. **Charlatan**: You've built a reputation as a con artist or a fake healer, using your charm and charisma to manipulate others while hiding your true nature.
+3. **Sinner**: You've made a pact with an otherworldly being (your Warlock patron) in exchange for power, but this has come at a great personal cost, including feelings of guilt and shame.
+
+Which of these backgrounds resonates with you the most?
+
+(Also, I want to assure you that I'll create a safe and respectful space for your character's story. If you'd like to add any specific details or themes to your character's background, feel free to share them.)
+
+Once we've settled on your Warlock's background, we can begin developing their stats and abilities.
+
+**Class Stats:**
+
+As a Warlock, you'll have the following ability scores:
+
+* Charisma (CHA): 16 (+3)
+* Intelligence (INT): 10 (+0)
+* Strength (STR): 8 (-1)
+* Dexterity (DEX): 12 (+1)
+* Constitution (CON): 14 (+2)
+
+These stats reflect your Warlock's magical abilities and their reliance on Charisma to cast spells.
+
+Next, we can discuss your Warlock's patron and the terms of their pact. Who or what is your Warlock patron?
+
+
+User: /exit
+
+
+
+
+
+------------------------END OF ATTEMPT------------------------
+
+
