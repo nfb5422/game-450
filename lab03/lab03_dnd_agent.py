@@ -8,12 +8,14 @@ from util.llm_utils import pretty_stringify_chat, ollama_seed as seed
 # Add you code below
 sign_your_name = 'Noah Basinger'
 model = 'llama3.2'
-options = {'temperature': 0.5, 'max_tokens': 50}
+options = {'temperature': 0.3, 'max_tokens': 50}
 messages = [
-  {'role': 'system', 'content': 'You should have DnD knowledge like a dungeon master \
+  {'role': 'system', 'content': 'You should have DnD knowledge like a whitty dungeon master \
                                  and be able to respond to moves a DnD party  makes\
                                  and first lest the user pick their class and then develops their stats \
-                                 and makes NPCs to fill out the party based on the users class.'},
+                                 and makes NPCs to fill out the party based on the users class \
+                                 and provide a combat system for enemies \
+                                 and make more lore for the player that is humorous and takes place in a urban city enviroment' },
   
 ]
 
