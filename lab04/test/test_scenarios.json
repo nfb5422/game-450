@@ -1,0 +1,127 @@
+[
+  {
+  "inventory": ["mana potion", "health potion"],
+  "ask": "One health potion and two mana potions",
+  "response": [
+  "health potion",
+  "mana potion",
+  "mana potion"
+  ]
+  },
+  {
+  "inventory": ["silver sword", "iron shield"],
+  "ask": "I want 3 silver swords and 1 iron shield",
+  "response": [
+  "silver sword",
+  "silver sword",
+  "silver sword",
+  "iron shield"
+  ]
+  },
+  {
+  "inventory": ["apple pie", "pumpkin bread", "blueberry muffin"],
+  "ask": "I want 2 apple pies and 5 pumpkin breads",
+  "response": [
+  "apple pie",
+  "apple pie",
+  "pumpkin bread",
+  "pumpkin bread",
+  "pumpkin bread",
+  "pumpkin bread",
+  "pumpkin bread"
+  ]
+  },
+  {
+  "inventory": ["rare gem", "gold coin", "silver coin"],
+  "ask": "I'd like 1 rare gem and 7 platinum coins",
+  "response": [
+  "rare gem",
+  "platinum coin",
+  "platinum coin",
+  "platinum coin",
+  "platinum coin",
+  "platinum coin",
+  "platinum coin",
+  "platinum coin"
+  ]
+  },
+  {
+  "inventory": ["bottle of water", "sandwich"],
+  "ask": "Can I get 1 sandwich and 2 bottles of water?",
+  "response": [
+  "sandwich",
+  "bottle of water",
+  "bottle of water"
+  ]
+  },
+  {
+  "inventory": [],
+  "ask": "I'd like 3 health potions and 2 mana potions",
+  "response": [
+  "health potion",
+  "health potion",
+  "health potion",
+  "mana potion",
+  "mana potion"
+  ]
+  },
+  {
+  "inventory": ["wooden staff", "enchanted staff"],
+  "ask": "I'd like 2 wooden staffs and 2 enchanted staffs",
+  "response": [
+  "wooden staff",
+  "wooden staff",
+  "enchanted staff",
+  "enchanted staff"
+  ]
+  },
+  {
+  "inventory": ["iron ore", "silver ore"],
+  "ask": "I want 5 iron ore and 5 silver ore",
+  "response": [
+  "iron ore",
+  "iron ore",
+  "iron ore",
+  "iron ore",
+  "iron ore",
+  "silver ore",
+  "silver ore",
+  "silver ore",
+  "silver ore",
+  "silver ore"
+  ]
+  },
+  {
+  "inventory": ["milk", "eggs", "flour"],
+  "ask": "I'd like 3 milk, 6 eggs, and 2 flour",
+  "response": [
+  "milk",
+  "milk",
+  "milk",
+  "eggs",
+  "eggs",
+  "eggs",
+  "eggs",
+  "eggs",
+  "eggs",
+  "flour",
+  "flour"
+  ]
+  },
+  {
+  "inventory": ["healing herb", "mana herb", "antidote herb"],
+  "ask": "I want 1 healing herb, 2 mana herbs, and 5 antidote herbs",
+  "response": [
+  "healing herb",
+  "mana herb",
+  "mana herb",
+  "antidote herb",
+  "antidote herb",
+  "antidote herb",
+  "antidote herb",
+  "antidote herb"
+  ]
+  }
+  ]
+  
+  

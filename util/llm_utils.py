@@ -25,41 +25,45 @@ def insert_params(string, **kwargs):
             string = string.replace("{{" + match + "}}", replacement)
     return string
 
-class ChatTemplate:
-    def __init__(self, template, sign=None, end_regex=None):
+class TemplateChat:
+    def __init__(self, template, sign=None, **kwargs):
         self.instance = template
         self.instance['options']['seed'] = hash(str(sign))
-        self.end_regex = end_regex
         self.messages = self.instance['messages']
+        self.end_regex = kwargs['end_regex'] if 'end_regex' in kwargs else None
+        self.parameters = kwargs
 
-    def from_file(template_file, sign=None, end_regex=None):
+    def from_file(template_file, sign=None, **kwargs):
         with open(Path(template_file), 'r') as f:
             template = json.load(f)
 
-        return ChatTemplate(template, sign, end_regex)
+        return TemplateChat(template, sign, **kwargs)
 
-    def chat(self, **kwargs):
+    def completion(self, **kwargs):
+        self.parameters |= kwargs
+        for item in self.instance['messages']:
+            item['content'] = insert_params(item['content'], **self.parameters)
+
+        return ollama.chat(**self.instance)
+
+    def chat_turn(self, **kwargs):
         response = self.completion(**kwargs)
         message = response['message']
         self.messages.append({'role': message.role, 'content': message.content})
         logging.info(f'{message.role}: {message.content}')
-
-        if self.end_regex is not None:
-            ending_match = self.check_ending(message.content)
-            if ending_match:
-                return message.content, ending_match
-
         return response 
 
-    def completion(self, **parameters):
-        for item in self.instance['messages']:
-            item['content'] = insert_params(item['content'], **parameters)
+    def start_chat(self, **kwargs):
+        while True:
+            response = self.chat_turn(**kwargs)
 
-        return ollama.chat(**self.instance)
-    
-    def check_ending(self, message):
-        if match:=re.search(self.end_regex, message, re.DOTALL):
-            return match[0]
-        else:
-            return False
-    
+            if self.end_regex:
+                if match:=re.search(self.end_regex, response.message.content, re.DOTALL):
+                    return response.message.content, match.group(1).strip()
+
+            prompt = yield response.message.content
+
+            logging.info(f'User: {prompt}')
+            self.instance['messages'].append({'role': 'user', 'content': prompt})
+            if prompt == '/exit':
+                break
