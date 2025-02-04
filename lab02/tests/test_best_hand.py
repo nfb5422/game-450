@@ -2,6 +2,10 @@
 Test the best_hand function.
 '''
 
+import sys
+from pathlib import Path
+sys.path.append(Path(__file__).parents[1])
+
 import itertools
 from random import shuffle
 from lab02.lab02 import best_hand
