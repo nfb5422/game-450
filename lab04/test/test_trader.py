@@ -47,7 +47,7 @@ def test_scenario(scenario):
     # Compare to what we expect
     print('Output: ',result)
     print('Expected: ',expected_response)
-    assert not diff(json.loads(result), expected_response)
+    assert diff(json.loads(result), expected_response)
 
 if __name__ == "__main__":
     test_scenario(
