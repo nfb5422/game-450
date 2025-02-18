@@ -8,7 +8,9 @@ File 'demo.py' shows the use of templates to create different types of recruitab
 
 ## Lab Tasks
 1. Edit `lab04_trader_chat.json` to create a prompt template for a DnD trader that successfully executes the trade. 
-3. You can experience your trader agent by completing the "main" in running `lab04.py`.
+2. The `lab04_params` dictionary will be read by the testing framework to load your json and supporting parameter.
+  - At the minimum, you will need `'template_file'`, `'sign'` and `'end_regex'` keys set in the `lab04_params`.  
+3. You can experience your trader agent by completing the "main" and running `lab04.py`.
 1. Sign your name in `lab04.py` to make your tests reproducible.
 4. Run the tests using **pytest** framework in VSCode to ensure that it passes most of the tests in `lab04/tests/test_trader.py`
 5. Show the status of some tests in VSCode to the instructor during the lab.
