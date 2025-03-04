@@ -1,0 +1,19 @@
+# Dungeons & Dragons Magic Items
+
+## Bag of Holding
+This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action. If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane.
+
+## Deck of Many Things
+Usually found in a box or pouch, this deck contains a number of cards made of ivory or vellum. Most (75 percent) of these decks have only thirteen cards, but the rest have twenty-two. Before you draw a card, you must declare how many cards you intend to draw and then draw them randomly. Any cards drawn in excess of this number have no effect. Otherwise, as soon as you draw a card from the deck, its magic takes effect.
+
+## Vorpal Sword
+You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage. When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head.
+
+## Ring of Invisibility
+While wearing this ring, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again.
+
+## Staff of the Magi
+This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to spell attack rolls. The staff has 50 charges for the following properties. When you cast a spell from the staff, you can choose to expend 1 or more additional charges to increase the spell's level. The staff regains 4d6 + 2 expended charges daily at dawn.
+
+## Portable Hole
+This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter. When placed on a surface and commanded to open, it creates a 10-foot-deep cylindrical hole. The hole is ringed with a 2-foot-wide band of cloth at the top. The portable hole remains in place until you use an action to grasp the edge of the cloth and fold it up. If living beings are within the hole when it's folded up, they're transported to the Astral Plane. 
