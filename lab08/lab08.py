@@ -176,7 +176,7 @@ def main():
     llm_model = "llama3.2:latest"  # Change to your preferred LLM model
     
     # 1. Load documents
-    data_dir = "dnd-agent/lab08/data"
+    data_dir = "lab08/data"
     documents = load_documents(data_dir)
     
     # 2. Chunk documents using ChromaDB chunker
